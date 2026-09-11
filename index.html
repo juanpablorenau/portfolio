@@ -64,10 +64,12 @@
     .skill-tag { display: flex; align-items: center; gap: 6px; padding: 7px 13px; border: 1px solid var(--border); border-radius: 8px; font-size: 13px; background: var(--card-bg); transition: border-color .2s, box-shadow .2s; }
     .skill-tag:hover { border-color: var(--accent); box-shadow: 0 0 0 3px var(--accent-light); }
     .skill-tag.ios-skill:hover { border-color: var(--ios); box-shadow: 0 0 0 3px var(--ios-light); }
+    .skill-tag.kmp-skill:hover { border-color: var(--kmp); box-shadow: 0 0 0 3px var(--kmp-light); }
     .skill-dot { width: 7px; height: 7px; border-radius: 50%; }
     .dot-kotlin { background: #7f52ff; } .dot-swift { background: #f05138; }
     .dot-android { background: #3ddc84; } .dot-ios { background: #007aff; }
     .dot-arch { background: #4285f4; } .dot-tool { background: #888; }
+    .dot-kmp { background: #7f52ff; }
 
     /* TABS */
     .tabs { display: flex; gap: 4px; margin-bottom: 1.5rem; background: var(--card-bg); border: 1px solid var(--border); border-radius: 10px; padding: 4px; width: fit-content; }
@@ -210,6 +212,7 @@
   <div class="skills-section anim"><div class="skills-category">Languages</div><div class="skills-grid"><div class="skill-tag"><span class="skill-dot dot-kotlin"></span>Kotlin</div><div class="skill-tag ios-skill"><span class="skill-dot dot-swift"></span>Swift</div></div></div>
   <div class="skills-section anim anim-delay-1"><div class="skills-category">Android & Jetpack</div><div class="skills-grid"><div class="skill-tag"><span class="skill-dot dot-android"></span>Jetpack Compose</div><div class="skill-tag"><span class="skill-dot dot-android"></span>ViewModel</div><div class="skill-tag"><span class="skill-dot dot-android"></span>Room</div><div class="skill-tag"><span class="skill-dot dot-android"></span>Navigation</div><div class="skill-tag"><span class="skill-dot dot-android"></span>Coroutines & Flow</div></div></div>
   <div class="skills-section anim anim-delay-2"><div class="skills-category">iOS & Apple</div><div class="skills-grid"><div class="skill-tag ios-skill"><span class="skill-dot dot-ios"></span>SwiftUI</div><div class="skill-tag ios-skill"><span class="skill-dot dot-ios"></span>Combine</div><div class="skill-tag ios-skill"><span class="skill-dot dot-ios"></span>Xcode</div></div></div>
+  <div class="skills-section anim anim-delay-3"><div class="skills-category">Kotlin Multiplatform</div><div class="skills-grid"><div class="skill-tag kmp-skill"><span class="skill-dot dot-kmp"></span>Compose Multiplatform</div><div class="skill-tag kmp-skill"><span class="skill-dot dot-kmp"></span>Shared UI &amp; Logic</div><div class="skill-tag kmp-skill"><span class="skill-dot dot-kmp"></span>Desktop (JVM)</div><div class="skill-tag kmp-skill"><span class="skill-dot dot-kmp"></span>expect / actual</div><div class="skill-tag kmp-skill"><span class="skill-dot dot-kmp"></span>Ktor</div></div></div>
   <div class="skills-section anim anim-delay-3"><div class="skills-category">Architecture & Patterns</div><div class="skills-grid"><div class="skill-tag"><span class="skill-dot dot-arch"></span>Clean Architecture</div><div class="skill-tag"><span class="skill-dot dot-arch"></span>MVVM</div><div class="skill-tag"><span class="skill-dot dot-arch"></span>Repository Pattern</div><div class="skill-tag"><span class="skill-dot dot-arch"></span>Hilt / DI</div></div></div>
   <div class="skills-section anim"><div class="skills-category">Networking & Tooling</div><div class="skills-grid"><div class="skill-tag"><span class="skill-dot dot-tool"></span>Retrofit</div><div class="skill-tag"><span class="skill-dot dot-tool"></span>REST APIs</div><div class="skill-tag"><span class="skill-dot dot-tool"></span>Unit Testing</div><div class="skill-tag"><span class="skill-dot dot-tool"></span>Git / GitHub</div></div></div>
 </section>
